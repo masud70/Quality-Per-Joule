@@ -1,0 +1,62 @@
+{
+  "config": {
+    "latent_dim": 128,
+    "vae_latent_dim": 128,
+    "T": 1000,
+    "base_ch": 32,
+    "time_dim": 128,
+    "n_fid_samples": 10000,
+    "batch_size": 32,
+    "seed": 42,
+    "checkpoint_dir": "./results/checkpoints",
+    "log_dir": "./results/logs",
+    "output_path": "./results/evaluation_results.json"
+  },
+  "results": {
+    "autoencoder": {
+      "fid": 33.4543,
+      "total_energy_j": 103928.88,
+      "total_time_s": 732.73,
+      "avg_power_w": 112.86,
+      "quality_per_joule": 2.9e-07,
+      "recon_mse": 0.011707,
+      "total_params": 1128451
+    },
+    "vae": {
+      "fid": 117.8054,
+      "total_energy_j": 108316.28,
+      "total_time_s": 762.47,
+      "avg_power_w": 113.02,
+      "quality_per_joule": 8e-08,
+      "recon_mse": null,
+      "total_params": 1652867
+    },
+    "dcgan": {
+      "fid": 15.1994,
+      "total_energy_j": 1115120.97,
+      "total_time_s": 4653.64,
+      "avg_power_w": 226.68,
+      "quality_per_joule": 6e-08,
+      "recon_mse": null,
+      "total_params": 3585732
+    },
+    "wgan_gp": {
+      "fid": 20.5181,
+      "total_energy_j": 4466156.14,
+      "total_time_s": 19236.63,
+      "avg_power_w": 214.15,
+      "quality_per_joule": 1e-08,
+      "recon_mse": null,
+      "total_params": 5211847
+    },
+    "ddpm": {
+      "fid": 20.3038,
+      "total_energy_j": 1098027.54,
+      "total_time_s": 5070.97,
+      "avg_power_w": 218.45,
+      "quality_per_joule": 4e-08,
+      "recon_mse": null,
+      "total_params": 15820355
+    }
+  }
+}

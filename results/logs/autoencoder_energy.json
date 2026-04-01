@@ -1,0 +1,264 @@
+{
+  "model": "autoencoder",
+  "total_params": 1128451,
+  "epochs": 30,
+  "total_training_time_s": 732.73,
+  "total_energy_j": 103928.88,
+  "avg_power_w": 112.86,
+  "codecarbon_kg_co2": 0.000152,
+  "final_train_loss": 0.011839,
+  "final_val_loss": 0.011773,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.051243,
+      "val_loss": 0.027818,
+      "epoch_time_s": 25.25,
+      "avg_power_w": 109.1,
+      "epoch_energy_j": 2754.75
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.024257,
+      "val_loss": 0.021376,
+      "epoch_time_s": 24.32,
+      "avg_power_w": 113.2,
+      "epoch_energy_j": 2752.58
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.020102,
+      "val_loss": 0.019569,
+      "epoch_time_s": 24.82,
+      "avg_power_w": 113.39,
+      "epoch_energy_j": 2814.79
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.017961,
+      "val_loss": 0.017448,
+      "epoch_time_s": 24.21,
+      "avg_power_w": 114.38,
+      "epoch_energy_j": 2768.65
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.01666,
+      "val_loss": 0.016067,
+      "epoch_time_s": 23.89,
+      "avg_power_w": 114.7,
+      "epoch_energy_j": 2739.94
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.01584,
+      "val_loss": 0.015754,
+      "epoch_time_s": 24.57,
+      "avg_power_w": 113.81,
+      "epoch_energy_j": 2795.85
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.015268,
+      "val_loss": 0.014884,
+      "epoch_time_s": 23.35,
+      "avg_power_w": 112.28,
+      "epoch_energy_j": 2621.47
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.014878,
+      "val_loss": 0.014893,
+      "epoch_time_s": 23.93,
+      "avg_power_w": 111.66,
+      "epoch_energy_j": 2671.73
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.014584,
+      "val_loss": 0.014413,
+      "epoch_time_s": 23.61,
+      "avg_power_w": 111.62,
+      "epoch_energy_j": 2634.75
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.014305,
+      "val_loss": 0.013985,
+      "epoch_time_s": 24.09,
+      "avg_power_w": 111.95,
+      "epoch_energy_j": 2696.86
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.013813,
+      "val_loss": 0.013514,
+      "epoch_time_s": 24.86,
+      "avg_power_w": 112.56,
+      "epoch_energy_j": 2797.85
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.01351,
+      "val_loss": 0.013374,
+      "epoch_time_s": 24.57,
+      "avg_power_w": 113.12,
+      "epoch_energy_j": 2779.3
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.013316,
+      "val_loss": 0.01335,
+      "epoch_time_s": 24.37,
+      "avg_power_w": 113.04,
+      "epoch_energy_j": 2754.49
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.013173,
+      "val_loss": 0.013245,
+      "epoch_time_s": 24.48,
+      "avg_power_w": 112.42,
+      "epoch_energy_j": 2752.17
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.013043,
+      "val_loss": 0.012908,
+      "epoch_time_s": 24.29,
+      "avg_power_w": 113.08,
+      "epoch_energy_j": 2746.78
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.012934,
+      "val_loss": 0.01343,
+      "epoch_time_s": 24.45,
+      "avg_power_w": 112.9,
+      "epoch_energy_j": 2760.6
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.012834,
+      "val_loss": 0.013486,
+      "epoch_time_s": 24.49,
+      "avg_power_w": 112.86,
+      "epoch_energy_j": 2764.15
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.012736,
+      "val_loss": 0.012622,
+      "epoch_time_s": 24.32,
+      "avg_power_w": 112.92,
+      "epoch_energy_j": 2745.77
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.012648,
+      "val_loss": 0.012527,
+      "epoch_time_s": 24.38,
+      "avg_power_w": 113.36,
+      "epoch_energy_j": 2764.05
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.012561,
+      "val_loss": 0.012436,
+      "epoch_time_s": 24.51,
+      "avg_power_w": 112.85,
+      "epoch_energy_j": 2766.52
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.012481,
+      "val_loss": 0.012359,
+      "epoch_time_s": 25.03,
+      "avg_power_w": 112.62,
+      "epoch_energy_j": 2818.4
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.012405,
+      "val_loss": 0.012265,
+      "epoch_time_s": 24.88,
+      "avg_power_w": 112.43,
+      "epoch_energy_j": 2797.58
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.012325,
+      "val_loss": 0.01224,
+      "epoch_time_s": 24.39,
+      "avg_power_w": 113.36,
+      "epoch_energy_j": 2765.28
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.012256,
+      "val_loss": 0.012231,
+      "epoch_time_s": 23.98,
+      "avg_power_w": 113.47,
+      "epoch_energy_j": 2721.5
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.012181,
+      "val_loss": 0.01211,
+      "epoch_time_s": 25.02,
+      "avg_power_w": 112.73,
+      "epoch_energy_j": 2820.96
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.012108,
+      "val_loss": 0.01203,
+      "epoch_time_s": 24.52,
+      "avg_power_w": 113.16,
+      "epoch_energy_j": 2774.69
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.012039,
+      "val_loss": 0.011967,
+      "epoch_time_s": 24.07,
+      "avg_power_w": 112.84,
+      "epoch_energy_j": 2715.56
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.011969,
+      "val_loss": 0.011887,
+      "epoch_time_s": 24.03,
+      "avg_power_w": 113.68,
+      "epoch_energy_j": 2732.13
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.011904,
+      "val_loss": 0.011799,
+      "epoch_time_s": 24.18,
+      "avg_power_w": 112.9,
+      "epoch_energy_j": 2729.66
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.011839,
+      "val_loss": 0.011773,
+      "epoch_time_s": 24.18,
+      "avg_power_w": 113.53,
+      "epoch_energy_j": 2745.28
+    }
+  ],
+  "config": {
+    "latent_dim": 128,
+    "epochs": 30,
+    "batch_size": 64,
+    "learning_rate": 0.0002,
+    "seed": 42,
+    "checkpoint_dir": "./results/checkpoints",
+    "log_dir": "./results/logs",
+    "sample_dir": "./results/samples",
+    "model_name": "autoencoder"
+  }
+}
