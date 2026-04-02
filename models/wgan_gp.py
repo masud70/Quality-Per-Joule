@@ -22,7 +22,7 @@ import torch.nn as nn
 from .dcgan import Generator, weights_init
 
 
-# ── Generator ─────────────────────────────────────────────────
+# Generator
 class Generator(nn.Module):
     def __init__(self, latent_dim: int = 128):
         super().__init__()
